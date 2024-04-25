@@ -12,4 +12,4 @@ def quicksort(array):
         return quicksort(menores) + iguais + quicksort(maiores)
 
 array = [3, 2, 75, 12, 22, 35, 1, 57, 1,75,100]
-print(quicksort(array))
+print(quicksort(array))  
